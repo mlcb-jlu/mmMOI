@@ -15,6 +15,14 @@ The linked folder contains trained models and multi label guided embeddings gene
 ## Single-omics Data Representation
 ```
 cd SoRL
+
+python main.py --dataset GBM --cuda_device 0
+python main.py --dataset BRCA --cuda_device 0
+python main.py --dataset OV --cuda_device 0
+python main.py --dataset KIPAN --cuda_device 0
+
 ```
+## Single-omics Data Representation
+
 
 
