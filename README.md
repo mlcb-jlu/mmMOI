@@ -12,5 +12,9 @@ Download trained model :https://pan.baidu.com/s/13xJdqeqx7jr_uyM7iP8HIg?pwd=sgrc
 The linked folder contains trained models and multi label guided embeddings generated
 
 # Training
+## Single-omics Data Representation
+```
+cd SoRL
+```
 
 
