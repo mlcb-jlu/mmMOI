@@ -11,6 +11,16 @@ Download trained model :https://pan.baidu.com/s/13xJdqeqx7jr_uyM7iP8HIg?pwd=sgrc
 
 The linked folder contains trained models and multi label guided embeddings generated
 
+```
+cd MoDF
+
+python main.py --dataset GBM --cuda_device 0 --mode False
+python main.py --dataset BRCA --cuda_device 0 --mode False
+python main.py --dataset OV --cuda_device 0 --mode False
+python main.py --dataset KIPAN --cuda_device 0 --mode False
+
+```
+
 # Training
 ## Single-omics Data Representation
 ```
@@ -23,6 +33,13 @@ python main.py --dataset KIPAN --cuda_device 0
 
 ```
 ## Single-omics Data Representation
+```
+cd MoDF
 
+python main.py --dataset GBM --cuda_device 0 --mode True
+python main.py --dataset BRCA --cuda_device 0 --mode True
+python main.py --dataset OV --cuda_device 0 --mode True
+python main.py --dataset KIPAN --cuda_device 0 --mode True
 
+```
 
