@@ -3,8 +3,25 @@
 # Introduction
 A Multi-omics Integration Framework using Multi-label Guided Learning and Multi-scale Fusion
 
-# Dataset
+# Download
 Download datases and trained model: https://pan.baidu.com/s/13xJdqeqx7jr_uyM7iP8HIg?pwd=sgrc#list/path=%2F&parentPath=%2F
+
+* The project folders is like:
+```
+your_project_location
+ - MoDF
+   - ...
+ - SoRL
+   - ...
+ - dataset
+   - ...
+ - results
+   - data
+       - ...
+   - model
+       - ...
+     - ...
+```
 
 # Testing
 
