@@ -10,7 +10,7 @@ parser = argparse.ArgumentParser()
 parser.add_argument('--dataset', type=str, default='OV', help='datasets: BRCA, GBM, KIPAN, OV')
 parser.add_argument('--epochs', type=int, default=300, help='training epochs')
 parser.add_argument('--cuda_device', type=int, default=0)
-parser.add_argument('--mode', type=bool, default=False, help='Traning mode')
+parser.add_argument('--mode', type=eval, default=False, help='Traning mode')
 parser.add_argument('--seed', type=int, default=42, help='')
 args = parser.parse_args()
 
