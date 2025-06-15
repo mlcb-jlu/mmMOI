@@ -6,9 +6,9 @@ A Multi-omics Integration Framework using Multi-label Guided Learning and Multi-
 # Download
 Download datases and trained model: https://pan.baidu.com/s/13xJdqeqx7jr_uyM7iP8HIg?pwd=sgrc#list/path=%2F&parentPath=%2F
 
-* Our project folders is like:
+* Our project structure is like:
 ```
-your_project_location
+mmMOI
  - MoDF
  - SoRL
  - dataset
