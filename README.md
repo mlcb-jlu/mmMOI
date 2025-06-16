@@ -40,7 +40,7 @@ python main.py --dataset OV --cuda_device 0
 python main.py --dataset KIPAN --cuda_device 0
 
 ```
-##  Multi-omicsDataFusion
+##  Multi-omics Data Fusion
 ```
 cd MoDF
 
